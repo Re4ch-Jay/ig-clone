@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:stream_agram/app/theme.dart';
+import 'package:ig_clone/app/theme.dart';
 
 /// {@template favorite_icon_button}
 /// Animated button to indicate if a post/comment is liked.

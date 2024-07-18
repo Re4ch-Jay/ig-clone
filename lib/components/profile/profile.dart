@@ -1,7 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:stream_agram/components/profile/edit_profile_screen.dart';
+import 'package:ig_clone/components/profile/edit_profile_screen.dart';
 import 'package:stream_feed_flutter_core/stream_feed_flutter_core.dart';
 
 import '../../app/app.dart';

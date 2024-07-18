@@ -1,9 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:stream_agram/components/profile/profile.dart';
-import 'package:stream_agram/components/search/search_page.dart';
-import 'package:stream_agram/components/timeline/timeline_page.dart';
+import 'package:ig_clone/components/profile/profile.dart';
+import 'package:ig_clone/components/search/search_page.dart';
+import 'package:ig_clone/components/timeline/timeline_page.dart';
 
 import '../../app/app.dart';
 import '../app_widgets/app_widgets.dart';
@@ -39,7 +39,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       appBar: AppBar(
         title:
-            Text('Stream-agram', style: GoogleFonts.grandHotel(fontSize: 32)),
+            Text('IG Clone', style: GoogleFonts.grandHotel(fontSize: 32)),
         elevation: 0,
         centerTitle: false,
         actions: [

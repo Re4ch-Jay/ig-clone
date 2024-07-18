@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:stream_agram/app/app.dart';
-import 'package:stream_agram/components/app_widgets/app_widgets.dart';
+import 'package:ig_clone/app/app.dart';
+import 'package:ig_clone/components/app_widgets/app_widgets.dart';
 import 'package:stream_feed_flutter_core/stream_feed_flutter_core.dart';
 
 import 'widgets/widgets.dart';

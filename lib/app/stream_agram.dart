@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:stream_agram/app/app.dart';
+import 'package:ig_clone/app/app.dart';
 import 'package:stream_feed_flutter_core/stream_feed_flutter_core.dart';
 
 import '../components/login/login.dart';
@@ -36,10 +36,11 @@ class _StreamagramAppState extends State<StreamagramApp> {
     return ChangeNotifierProvider.value(
       value: appState,
       child: MaterialApp(
-        title: 'Stream-agram',
+        title: 'IG Clone',
         theme: widget.appTheme.lightTheme,
         darkTheme: widget.appTheme.darkTheme,
         themeMode: ThemeMode.dark,
+        debugShowCheckedModeBanner: false,
         builder: (context, child) {
           // Stream Feeds provider to give access to [FeedBloc]
           // This class comes from Stream Feeds.
